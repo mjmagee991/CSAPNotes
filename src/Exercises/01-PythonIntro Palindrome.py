@@ -51,11 +51,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    s = "hello"
-    t = "hello"
-    u = s[:3] + s[3:]
-    v = s[:3] + s[3:]
-    print(id(s))
-    print(id(t))
-    print(id(u))
-    print(id(v))
