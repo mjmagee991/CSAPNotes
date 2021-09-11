@@ -12,6 +12,13 @@ from ontology import Ontology, Concept
 from dataclasses import dataclass
 
 
+@dataclass
+class ConceptPair:
+    concept1: Concept
+    concept2: Concept
+    similarity: float
+
+
 def main() -> None:
     """
     Uses an ontology generated from a local file. Then, prints the lowest common
